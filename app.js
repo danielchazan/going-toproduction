@@ -4,7 +4,7 @@ app.set("port" , process.env.PORT || 3000);
 
 app.get("/" , function(req,res) {
     res.send("<h1>Hello Heroku World</h1>");
-    res.end("© <h4>From Snake Skill Project</h4>");
+    res.send("© <h4>From Snake Skill Project</h4>");
 });
 
 
