@@ -1,0 +1,5 @@
+3 ignore all text files
+*.txt
+
+# ignore Dependency directories
+node_modules/
